@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang='es'>
+
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width'>
+
+  <title>Menu</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://kit.fontawesome.com/0c5e2db7ae.js" crossorigin="anonymous"></script>
+  <style>
+    .entrada-item {
+      text-transform: capitalize;
+    }
+
+    .ocultar {
+      display: none;
+    }
+
+    .ocultar-visibilidad {
+      visibility: hidden;
+    }
+    
+  </style>
+  
+</head>
+
+  <body>
+    <div class="body-page">
+      <header>Dinner Menu</header>
+
+      <div id="entradas-menu">
+        <div class="entrada-item" id="empanada-item">
+          <div class="title">
+            <h2>Empanada</h2>
+            <i id="icono-agregar-empanada" class="fa-solid fa-plus"></i>
+            <i id="icono-eliminar-empanada" class="fa-solid fa-trash" style="color: #a51d2d;"></i>
+          </div>
+
+          <div class="description">
+            Empanada description
+          </div>
+
+          <div id="empanada-precio"></div>  
+
+          <input type="number" value="0" min="0" id="empanada-cantidad">
+
+          <div id="empanada-total-precio"></div>
+          
+        </div>
+
+        <div class="entrada-item" id="alitas-item">
+          <div class="title">
+            <h2>Alitas</h2>
+            <i id="icono-agregar-alitas" class="fa-solid fa-plus"></i>
+            <i id="icono-eliminar-alitas" class="fa-solid fa-trash" style="color: #a51d2d;"></i>
+          </div>
+
+          <div class="description">
+            Alitas description
+          </div>
+
+          <div id="alitas-precio"></div>  
+
+          <input type="number" value="0" min="0" step="0" id="alitas-cantidad">
+
+          <div id="alitas-total-precio"></div>
+        </div>
+
+        <div class="entrada-item" id="papasfritas-precio-item">
+          <div class="title">
+            <h2>Papas fritas</h2>
+            <i id="icono-agregar-papasfritas" class="fa-solid fa-plus"></i>
+            <i id="icono-eliminar-papasfritas" class="fa-solid fa-trash" style="color: #a51d2d;"></i>
+          </div>
+
+          <div class="description">
+            Papas fritas description
+          </div>
+
+          <div id="papasfritas-precio"></div>  
+
+          <input type="number" value="0" min="0" step="0" id="papasfritas-cantidad">
+
+          <div id="papasfritas-total-precio"></div>
+        </div>
+        
+      </div>
+    </div>
+    
+
+    
+    
+    
+    
+  </body>
+
+  <script src="nuevo.js"></script>
+  
+  <!-- <script src="app.js"></script> -->
+  
+  <!-- <script src="diner_menu.js"></script> -->
+</html>

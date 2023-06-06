@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.body-page {
+  width: 800px;
+  height: 100vh;
+  background: #cbcbcb;
+}
+
+header {
+  width: 800px;
+  height: 170px;
+  background: grey;
+}
+
+.menu-container {
+  display: flex;
+}
+
+.column-food {
+  width: 350px;
+}
